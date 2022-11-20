@@ -1,0 +1,57 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+body {
+    background-color: #FAF7FD;
+}
+
+#all {
+    margin: 200px auto;
+}
+
+.perfil {
+    border: solid #BB99DD;
+    border-radius: 50%;
+    overflow:hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 96%;
+    height: 96%;
+    margin: calc(50% - 96px);
+    object-fit:cover;
+}
+
+.link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300 800;
+    color: #BB99DD;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.link-T {
+    border-radius: 5px;
+    padding: 5px;
+    border: solid #BB99DD;
+    width: 15%;
+    margin: 20px auto;
+}
+
+.display-1 {
+    width: 100%;
+    height: 25px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.icons {
+    display: inline-block;
+    margin: 10px 20px;
+}
